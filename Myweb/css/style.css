@@ -1,0 +1,220 @@
+body{
+	font-size: 16px;
+	color: white;
+	background-color: #61122f;
+	font-family: 'oxygen' sans-serif;
+}
+
+#header-nav{
+	border-radius: 0px;
+	background-color: #bdc23c;
+	border: 0px; 
+}
+#myimg{
+	
+}
+
+.navbar-brand{
+	padding: 15px;
+}
+
+.navbar-brand h1{
+	font-family: 'Playfair Display', serif;
+	color: #2023d6;
+	font-size: 2em;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.navbar-brand span{
+	margin-left: 10px;
+	color: black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-brand p{
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+
+#nav-list{
+	margin: 10px;
+}
+
+#nav-list a{
+	color: red;
+	text-align: center;
+}
+
+#nav-list a:hover{
+	color: #e7e7e7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+
+#phone{
+	margin-top: 10px;
+}
+
+#phone a{
+	text-align: right;
+}
+
+#phone div{
+	text-align: :right;
+	padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+}
+
+@media(min-width: 1200px){
+	.jumbotron{
+		background: url("file:///C:/Users/Imjimil/Downloads/195916-gastro-1200px.jpg") no-repeat;
+		border: 2px solid #c9c938;
+		box-shadow: 0 0 50px #c9c938;
+		height: 641px;
+	}
+
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+	#myimg{
+		background: url("file:///C:/Users/Imjimil/Downloads/logo.png");
+		width: 120px;
+		height: 120px;
+		margin: 5px;
+	}
+
+	.jumbotron{
+		background: url("file:///C:/Users/Imjimil/Downloads/photo-1554118811-1e0d58224f24.jpg") no-repeat;
+		border: 2px solid #c9c938;
+		box-shadow: 0 0 50px #c9c938;
+		height: 641px;
+	}
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.navbar-brand {
+		height: 120px;
+	}
+
+	.jumbotron{
+		background: url("file:///C:/Users/Imjimil/Downloads/photo-1521017432531-fbd92d768814.jpg") no-repeat;
+		border: 2px solid #c9c938;
+		box-shadow: 0 0 50px #c9c938;
+		height: 400px;
+	}
+
+}
+
+@media(max-width: 767px){
+	.navbar-brand {
+		height: 80px;
+	}
+
+	.container .jumbotron{
+		padding: 0px;
+		border: 2px solid #c9c938;
+		box-shadow: 0 0 35px #c9c938;
+	
+	}
+
+	#menutile, #specialtile{
+		width: 360px;
+		margin: 0 auto 15px;
+	}
+
+	.panel-footer{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.panel-footer hr{
+		width: 50%;
+	}
+}
+
+#collapsable-nav a{
+	font-size: 1.2em;
+}
+
+#collapsable-nav a span{
+	font-size: 1em;
+	margin-right: 7px; 
+}
+
+#menutile, #specialtile, #maptile{
+	height: 200px;
+	width: 100%;
+	border: 2px solid #cccccc;
+	overflow: hidden;
+	border-radius: 8px;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+#menutile:hover, #specialtile:hover, #maptile:hover{
+	box-shadow: 0 0 10px #c9c938;
+}
+
+#menutile{
+	background: url("file:///C:/Users/Imjimil/Downloads/pexels-photo-376464.jpeg") no-repeat;
+	background-position: center;
+}
+
+#specialtile{
+	background: url("file:///C:/Users/Imjimil/Downloads/taco-johns-loaded-nachos_1543449087.jpg") no-repeat;
+	background-position: center;
+}
+
+#menutile span, #specialtile span, #maptile span{
+	text-align: center;
+	color: #fff;
+	background-color: #000;
+	bottom: 0;
+	left: 0;
+	opacity: 0.8;
+	font-size: 1.6em;
+	position: absolute;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.panel-footer{
+	color: #fff;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	background-color: #222;
+	border: 0px; 
+	line-height: 1.8;
+}
+
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+
+#hours  span, #address  span{
+	font-size: 1.6em;
+}
+
+#address p{
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+
+}
+
+#reviews{
+	font-style: italic;
+}
