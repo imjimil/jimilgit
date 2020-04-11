@@ -41,22 +41,36 @@ body{
 
 #chicken{
 	text-align: center;
-	font-size: 1.4em;
 	font-weight: bold;
-	color: black;
-	opacity: 0.8;
-	margin-bottom: 15px;
+	font-size: 1.3em;
+
 }
 
-.container-fluid section{
+#beef{
 	text-align: center;
-	background-color: #b9c1c4;
+	font-weight: bold;
+	font-size: 1.3em;
+
+}
+
+#sushi{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.3em;
+
+}
+
+section{
+	border: 1px solid black;
+	height: auto;
+	overflow: auto;
+	width: 100%;
+	background-color: #a5b0a8;
 	opacity: 0.8;
-	
-	
-	color: black;
-	font-size: 1.2em;
-	font-family: sans-serif;
-	padding: 5px;
-	padding-left: auto;
+	font-family: halvetica;
+}
+
+.design{
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
